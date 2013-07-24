@@ -76,6 +76,10 @@
 }
 
 - (IBAction)buttonTapped:(id)sender {
-     NSLog(@"test");
+     
+     NSLog(@"A button was tapped");
+
 }
+
+
 @end
