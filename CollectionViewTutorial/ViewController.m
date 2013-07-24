@@ -63,6 +63,7 @@
     [[cell myButton] addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpOutside];
     [[cell myButton] setBackgroundImage:[UIImage imageNamed:[arrayOfImages objectAtIndex:indexPath.item]] forState:UIControlStateNormal];
     
+    
     return cell;
 }
 
